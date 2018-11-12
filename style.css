@@ -1,0 +1,149 @@
+body {
+    background-image: url("image/bois.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px 730px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #D1CECD;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+h3{
+    display:flex;
+    justify-content: center;
+    font-size: 3em;
+}
+
+.photo{
+    display: flex;
+    justify-content: center; 
+    margin: 3em 3em 3em 3em;
+}
+.sepa{
+    display: flex;
+    justify-content: center;
+    margin: 0em 2em 0em 2em;
+}
+#menu-deroulant,
+#menu-deroulant ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#menu-deroulant {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;                
+    background-color: #CB5730;
+}
+
+#menu-deroulant li {
+    display: inline-block;
+}
+
+#menu-deroulant ul li {
+    display: inherit;
+}
+
+#menu-deroulant a {
+    text-decoration: none;    
+    color: #D1CECD;
+}
+
+a:hover {
+    background-color: rgb(201, 101, 67);
+}
+
+#menu-deroulant ul {
+    position: absolute;
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+}
+
+#menu-deroulant li:hover ul {
+    left: auto;
+    background-color: rgb(201, 101, 67);
+}
+.equipe {
+    display: flex;
+    flex-direction:row; 
+   flex-wrap: wrap;
+    justify-content: space-around;    
+  }
+  .photo{
+margin-left: 9em;
+margin-right: 9em;
+  }
+  figcaption{
+      text-align: center;
+  }
+  .equipe p{
+      display: flex;
+      justify-content: center;
+  }
+.equipe img{
+ border: 10px solid brown;
+ border-radius: 100%;
+}
+
+.video{
+    display:flex;
+    justify-content: center;
+    margin-bottom:3em;
+
+}
+footer {
+    background-image: url("image/foot.jpg");
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+.droite {
+    display: flex;
+    justify-content: flex-end;
+}
+.map{
+margin-top:3em;
+margin-right: 0.2em;
+}
+h2{
+    color:#D1CECD;
+    margin:2px;
+}
+.horaire{
+    height: 5em;
+    width: 15em;
+    font-size: 0.75em;
+    position: absolute;
+}
+.titi{
+    display: flex;
+    justify-content: flex-end;
+}
+.carousel-inner img {
+    margin: auto;
+  }
+  @keyframes down{
+	0% { top:0px; opacity: 0}
+	50% { top:15px; opacity: 0.5}
+	100% { top:30px; opacity: 1}
+
+}
+.fleche{
+	animation: down 1s infinite linear alternate;
+    width: 3%;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.calendrier{
+    display: flex;
+    justify-content: center;
+    margin:3em 5em 3em 5em;
+}

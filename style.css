@@ -53,6 +53,8 @@ h3{
     text-align: center;
     padding: 10px;                
     background-color: #CB5730;
+    color: #D1CECD;
+
 }
 
 #menu-deroulant li {
@@ -62,7 +64,6 @@ h3{
 #menu-deroulant ul li {
     display: inherit;
 }
-
 #menu-deroulant a {
     text-decoration: none;    
     color: #D1CECD;

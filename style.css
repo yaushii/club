@@ -26,6 +26,11 @@ h3{
     justify-content: center;
     margin: 0em 2em 0em 2em;
 }
+.retour{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+}
 #menu-deroulant,
 #menu-deroulant ul {
     padding: 0;

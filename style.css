@@ -10,6 +10,10 @@ h1 {
     padding-bottom: 20px;
     text-decoration: underline;
 }
+.prepa{
+    height: 400px;
+    width: 600px;
+}
 h3{
     display:flex;
     justify-content: center;
@@ -25,6 +29,10 @@ h3{
     display: flex;
     justify-content: center;
     margin: 0em 2em 0em 2em;
+}
+.flechesepa{
+    width: 290px ;
+    height:170px ;
 }
 
 @keyframes down{
@@ -98,6 +106,9 @@ a:hover {
 margin-left: 9em;
 margin-right: 9em;
   }
+  .profil{
+height: 200px;
+  }
   figcaption{
       text-align: center;
   }
@@ -113,7 +124,7 @@ margin-right: 9em;
 .video{
     display:flex;
     justify-content: center;
-    margin-bottom:3em;
+    margin-bottom:3em;    
 
 }
 footer {
@@ -159,10 +170,18 @@ h2{
     width: 3%;
     margin-left: auto;
     margin-right: auto;
-  
+}
+.arrowscroll{
+  width: 70px;
+  height: 70px;
 }
 .calendrier{
     display: flex;
     justify-content: center;
     margin:3em 5em 3em 5em;
 }
+.titi{
+height:250px;
+width:150px ;
+}
+

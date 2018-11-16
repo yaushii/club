@@ -43,7 +43,6 @@ h3{
 }
 .retour{
     animation: down 1s infinite linear alternate;
-    width: 3;
     display: flex;
     justify-content: flex-end;
     margin: 5px;

@@ -202,5 +202,7 @@ video{
 .maps{
     display:flex;
     margin-top: 3em;
-    margin-left: 18em;
+    margin-left: 17em;
+    width:250px;
+    height:200px;
 }
